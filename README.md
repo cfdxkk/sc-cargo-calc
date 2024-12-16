@@ -81,5 +81,5 @@ bun run preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 ## LICENSE
-Codes, without images resources is licensed by [GLWTPL](https://github.com/cfdxkk/SODA/blob/main/LICENSE).  
+Codes, without images resources is licensed by [GLWTPL](https://github.com/cfdxkk/sc-cargo-calc/blob/master/LICENSE).  
 Image resources come from the internet.
