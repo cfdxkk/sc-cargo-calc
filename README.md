@@ -1,6 +1,7 @@
 # sc-cargo-calc
 A Star Citizen cargo capacity calculator.\
-Core: `/pages/inxex.vue` -> `checkSize()`
+Core: `/pages/inxex.vue` -> `checkSize()`\
+Live demo: https://cargo.zerotwo.love
 
 
 # Nuxt Minimal Starter
