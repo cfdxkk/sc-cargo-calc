@@ -30,8 +30,8 @@
      * 每个飞船拥有的货物网格尺寸列表
      */
     const shipCargoList = ref<Record<string, ShipCargoGrid3D>>({
-        polaris: [{ x: 12, y:6, z:4 }, { x: 12, y: 6, z: 4 }], // 576 SCU
-        c2: [{ x: 15, y: 8, z: 4 }, { x: 9, y: 6, z: 4 }], // 696 SCU
+        rsi_polaris: [{ x: 12, y:6, z:4 }, { x: 12, y: 6, z: 4 }], // 576 SCU
+        cru_c2: [{ x: 15, y: 8, z: 4 }, { x: 9, y: 6, z: 4 }], // 696 SCU
     });
 
     const selectedShip = ref({shipName: "polaris", shipCargoGrid: [{ x: 12, y:6, z:4 }, { x: 12, y: 6, z: 4 }] as ShipCargoGrid3D}); // 用户选中的飞船，默认是 polaris
@@ -249,7 +249,7 @@
         {{ shipName }}
       </option>
     </select>
-    <p>You select ship is: {{ selectedShip.shipName }} with {{ selectedShip.shipCargoGrid }} ship cargo grid.</p>
+    <p>You selected the: {{ selectedShip.shipName }} with {{ selectedShip.shipCargoGrid }} ship cargo grid.</p>
     
     <br />
     <p>2. Choose your cargo size and count.</p>
