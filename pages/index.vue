@@ -266,6 +266,7 @@
     <button @click="statCalc">Start</button>
 
     <br />
+    <br />
     <p>4. Results.</p>
     <div v-if="canFitCargo !== undefined">
         <p v-if="typeof canFitCargo === 'string'">{{ canFitCargo }}</p>
