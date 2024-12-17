@@ -34,7 +34,7 @@
         cru_c2: [{ x: 15, y: 8, z: 4 }, { x: 9, y: 6, z: 4 }], // 696 SCU
     });
 
-    const selectedShip = ref({ rsi_polaris: shipCargoList["rsi_polaris"] }); // 用户选中的飞船，默认是 polaris
+    const selectedShip = ref({ shipName: "rsi_polaris", shipCargoGrid: shipCargoList["rsi_polaris"] }); // 用户选中的飞船，默认是 polaris
 
     const cargo1ScuCount = ref(0); // 用户填写的 1SCU 货物箱子的数量
     const cargo2ScuCount = ref(0); // 用户填写的 2SCU 货物箱子的数量
