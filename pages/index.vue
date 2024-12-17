@@ -226,7 +226,7 @@
 <template>
     <div class="introduce-part">
         <p>
-            This component provides an interactive tool to calculate whether a selected Star Citizen ship’s cargo grid can accommodate a 
+            This component provides an interactive tool to calculate whether a selected Star Citizen ship's cargo grid can accommodate a 
             specified set of cargo boxes. By choosing a ship and inputting the quantity of various sized cargo boxes (1, 2, 4, 8, 16, 24, 32 SCU), 
             the underlying algorithm attempts to find a suitable arrangement. 
         </p>
@@ -234,7 +234,7 @@
             The algorithm used here follows a backtracking strategy combined with a greedy heuristic: it sorts boxes from largest to smallest 
             before trying to place them into the defined cargo grids. This approach can quickly find a packing solution for many scenarios 
             due to its simplicity and straightforward logic. However, it does not guarantee finding an optimal solution in all cases and may 
-            fail to place cargo even when a more complex algorithm might succeed. Additionally, the solution’s performance can degrade with 
+            fail to place cargo even when a more complex algorithm might succeed. Additionally, the solution's performance can degrade with 
             large input sizes, as backtracking can become computationally expensive. Thus, while this method is relatively easy to implement 
             and works well for moderate problem sizes, it may struggle with highly complex arrangements or require extensive computation time 
             to verify all possibilities.
